@@ -5,7 +5,19 @@
   "main": "index.js",
   "dependencies": {
     "chai": "^4.2.0",
-    "express": "^4.17.1"
+    "consolidate": "^0.15.1",
+    "dust": "^0.3.0",
+    "dustjs-helpers": "^1.7.4",
+    "dustjs-linkedin": "^2.7.5",
+    "express": "^4.17.1",
+    "pg": "^7.12.1",
+    "body-parser": "^1.19.0",
+    "path": "^0.12.7"
+  },
+  "standard": {
+    "env": [
+      "mocha"
+    ]
   },
   "devDependencies": {
     "eslint": "^6.1.0",
@@ -14,7 +26,9 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^1.7.0",
-    "mocha": "^6.2.2"
+    "mocha": "^6.2.2",
+    "request": "^2.88.0",
+    "should": "^13.2.3"
   },
   "scripts": {
     "start": "node index.js",
@@ -29,5 +43,8 @@
   "bugs": {
     "url": "https://github.com/jenniekibiri/TEAMWORK/issues"
   },
-  "homepage": "https://github.com/jenniekibiri/TEAMWORK#readme"
+  "homepage": "https://github.com/jenniekibiri/TEAMWORK#readme",
+  "directories": {
+    "test": "test"
+  }
 }

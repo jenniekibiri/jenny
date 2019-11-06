@@ -1,4 +1,8 @@
-const expect = require('chai').expect
+/* eslint-env mocha */
+/* global describe it */
+
+const expect = require('chai').expect;
+
 const server = require('../index');
 
 describe('test', () => {
